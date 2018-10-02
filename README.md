@@ -4,7 +4,7 @@ This is the simplest project setup if you'd like to get going with a single HTML
 
 ### Instructions
 
-* Simple Clone this repository (in your terminal) using `git clone https://github.com/nkhil/simple-boilerplate.git`
+* Simply Clone this repository (in your terminal) using `git clone https://github.com/nkhil/simple-boilerplate.git`
 * In your terminal, type `npm install` to install the dev devDependencies (Google 'npm' or 'node package manager' if you don't know what 'npm install does')
 * Once this is done, simply type `gulp watch` in your terminal (while you're inside the project folder) and you should see browser-sync create a server and serve up the index.html file
 * Any changes you make to your index.html file, or the style.scss file should now show up live in your browser.
