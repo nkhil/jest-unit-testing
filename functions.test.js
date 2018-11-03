@@ -20,3 +20,15 @@ test('should be null', () => {
     expect(functions.isNull()).toBeNull();    
 });
 
+test('Should be falsy', () => {
+    expect(functions.checkValue(null)).toBeFalsy(); 
+});
+
+// Testing toEqual instead of toBe
+test('Should be equal to Nikhil Vijayan', () =>{
+    expect(functions.createUser()).toEqual({
+        firstName: 'John',
+        lastName: 'Doe',
+        nationality: 'American',
+    });
+});
