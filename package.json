@@ -1,7 +1,7 @@
 {
-  "name": "gulp-setup",
+  "name": "jest-learning",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the simplest project setup if you'd like to get going with a single HTML file that uses SASS, Gulp and Browser-Sync. I've also included my favourite @media query mixin as a partial ([credit to David Gilbertson](https://medium.freecodecamp.org/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862))",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,16 @@
   "devDependencies": {
     "browser-sync": "^2.24.7",
     "gulp": "^3.9.1",
-    "gulp-sass": "^4.0.1"
-  }
+    "gulp-sass": "^4.0.1",
+    "jest": "^23.6.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkhil/simple-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nkhil/simple-boilerplate/issues"
+  },
+  "homepage": "https://github.com/nkhil/simple-boilerplate#readme"
 }
